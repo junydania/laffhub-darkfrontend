@@ -86,6 +86,17 @@ $( document ).ready(function() {
        }
     });
 
+    /////// Hide Search filter ///////
+    $('#search-filter').slideUp('slow');
+    $('.clearsearch').hide();
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Collapse Filter Search Result Div
+    $('#down-arrow').click(function(){
+        $('#search-filter').slideToggle('slow');
+        $('#icon').toggleClass("fa-chevron-down hidden-xs fa-chevron-up hidden-xs");
+        $('.clearsearch').slideToggle('slow');
+    });
 
     var MYAPP = {
         initialize: function() {

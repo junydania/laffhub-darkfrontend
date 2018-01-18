@@ -9,28 +9,25 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.png">
 
-    <title>Circle Video | Browse Categories Page</title>
+    <title>LaffHub Comedy | Categories </title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-dist.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/font-circle-video.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="plugins/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css"/>
 
     <!-- font-family: 'Hind', sans-serif; -->
     <link href='https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700|Hind+Guntur:300,400,500,700' rel='stylesheet' type='text/css'>
 </head>
-
 <body class="dark">
-
 <!-- logo, menu, search, avatar -->
 <div class="container-fluid">
     <div class="row">
-        <div class="btn-color-toggle">
-            <img src="images/icon_bulb_light.png" alt="">
-        </div>
         <div class="navbar-container">
             <div class="container">
                 <div class="row">
@@ -39,8 +36,8 @@
                     </div>
                     <div class="col-lg-1 col-sm-2 col-xs-6">
                         <a class="navbar-brand" href="index.html">
-                            <img src="images/logo.svg" alt="Project name" class="logo" />
-                            <span>Circle</span>
+                            <img src="images/laffhubsmiley.png" alt="LaffHub" class="logo" />
+                            <span>LaffHub</span>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-10 hidden-xs">
@@ -67,8 +64,51 @@
                                     <li><a href="signup.html">Signup Page</a></li>
                                 </ul>
                             </li>
-                            <li><a href="categories.html">Categories</a></li>
+                            <li>
+                                <a href="categories.html">Categories</a>
+                                <ul>
+                                    <li>
+                                        <a href="index.html">Animation</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-video.html">Stand Up</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-video-youtube.html">Arewa</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-video-vimeo.html">Church Comedy</a>
+                                    </li>
+                                    <li>
+                                        <a href="upload.html">Comedy Skits</a>
+                                    </li>
+                                    <li>
+                                        <a href="upload-edit.html">Comedy Talk Show</a>
+                                    </li>
+                                    <li>
+                                        <a href="search.html">Just For Laughs</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="channel.html">Comedians</a></li>
                             <li><a href="channel.html">Channels</a></li>
+                            <li class='profile'>
+                                <a href="categories.html">My Account</a>
+                                <ul>
+                                    <li>
+                                        <a href="index.html">Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-video.html">Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-video-youtube.html">Unsubscribe</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-video-vimeo.html">Sign Out</a>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-6 col-sm-8 col-xs-3">
@@ -81,43 +121,16 @@
                                     <div class="input-group-btn">
                                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="cv cvicon-cv-video-file"></i>&nbsp;&nbsp;&nbsp;<span class="caret"></span></button>/
                                         <ul class="dropdown-menu">
-                                            <li><a href="#"><i class="cv cvicon-cv-relevant"></i> Relevant</a></li>
-                                            <li><a href="#"><i class="cv cvicon-cv-calender"></i> Recent</a></li>
-                                            <li><a href="#"><i class="cv cvicon-cv-view-stats"></i> Viewed</a></li>
+                                            <li><a href="#"><i class="cv cvicon-cv-relevant"></i> Latest</a></li>
+                                            <li><a href="#"><i class="cv cvicon-cv-view-stats"></i> Most Viewed</a></li>
                                             <li><a href="#"><i class="cv cvicon-cv-star"></i> Top Rated</a></li>
-                                            <li><a href="#"><i class="cv cvicon-cv-watch-later"></i> Longest</a></li>
+                                            <li><a href="#"><i class="cv cvicon-cv-watch-later"></i> Featured</a></li>
                                         </ul>
                                     </div><!-- /btn-group -->
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <div class="col-lg-2 col-sm-4 hidden-xs">
-                        <div class="avatar pull-left">
-                            <img src="images/avatar.png" alt="avatar" />
-                            <span class="status"></span>
-                        </div>
-                        <div class="selectuser pull-left">
-                            <div class="btn-group pull-right dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    Bailey
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="signup.html">Sign up</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-                <div class="hidden-xs">
-                    <a href="upload.html">
-                        <div class="upload-button">
-                            <i class="cv cvicon-cv-upload-video"></i>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
@@ -129,24 +142,20 @@
     <div class="mobile-menu-head">
         <a href="#" class="mobile-menu-close"></a>
         <a class="navbar-brand" href="index.html">
-            <img src="images/logo.svg" alt="Project name" class="logo" />
-            <span>Circle</span>
+            <img src="images/laffhubsmiley.png" alt="Project name" class="logo" />
+            <span>LaffHub</span>
         </a>
-        <div class="mobile-menu-btn-color">
-            <img src="images/icon_bulb_light.png" alt="">
-        </div>
     </div>
     <div class="mobile-menu-content">
         <div class="mobile-menu-user">
             <div class="mobile-menu-user-img">
                 <img src="images/ava11.png" alt="">
             </div>
-            <p>Bailey Fry </p>
-            <span class="caret"></span>
+            <p>MSISDN/Email </p>
         </div>
         <a href="#" class="btn mobile-menu-upload">
             <i class="cv cvicon-cv-upload-video"></i>
-            <span>Upload Video</span>
+            <span>Subscribe</span>
         </a>
         <div class="mobile-menu-list">
             <ul>
@@ -163,48 +172,31 @@
                         <span class="caret"></span>
                     </a>
                     <ul class="mobile-menu-categories">
-                        <li class="color-active">
-                            <a href="#">Pages <span class="caret"></span></a>
-                            <ul>
-                                <li><a href="index.html">Home Page</a></li>
-                                <li><a href="single-video.html">Single Video Page</a></li>
-                                <li><a href="single-video-youtube.html">Single Video Youtube Embedded Page</a></li>
-                                <li><a href="single-video-vimeo.html">Single Video Vimeo Embedded Page</a></li>
-                                <li><a href="upload.html">Upload Video Page</a></li>
-                                <li><a href="upload-edit.html">Upload Video Edit Page</a></li>
-                                <li><a href="search.html">Searched Videos Page</a></li>
-                                <li><a href="channel.html">Single Channel Page</a></li>
-                                <li><a href="channels.html">Channels Page</a></li>
-                                <li><a href="single-video-tabs.html">Single Videos Page With Tabs</a></li>
-                                <li><a href="single-video-playlist.html">Single Videos Page With Playlist</a></li>
-                                <li><a href="history.html">History Page</a></li>
-                                <li><a href="categories.html">Browse Categories Page</a></li>
-                                <li><a href="categories_side_menu.html">Browse Categories Side Menu Page</a></li>
-                                <li><a href="subscription.html">Subscription Page</a></li>
-                                <li><a href="login.html">Login Page</a></li>
-                                <li><a href="signup.html">Signup Page</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="categories.html">Categories</a></li>
-                        <li><a href="channel.html">Channels</a></li>
+                        <li><a href="index.html">Animation</a></li>
+                        <li><a href="single-video.html">Stand Up</a></li>
+                        <li><a href="single-video-youtube.html">Arewa</a></li>
+                        <li><a href="single-video-vimeo.html">Church Comedy</a></li>
+                        <li><a href="upload.html">Comedy Skits</a></li>
+                        <li><a href="upload-edit.html">Comedy Talk Show</a></li>
+                        <li><a href="search.html">Just For Laughs</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">
                         <i class="cv cvicon-cv-liked"></i>
-                        <p>Liked Videos</p>
+                        <p>Comedians</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <i class="cv cvicon-cv-history"></i>
-                        <p>History</p>
+                        <p>Featured Videos</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <i class="cv cvicon-cv-purchased"></i>
-                        <p>Purchased Videos</p>
+                        <p>Profile</p>
                     </a>
                 </li>
             </ul>
@@ -231,20 +223,6 @@
                             <a href="#"><i class="cv cvicon-cv-play-circle" data-toggle="tooltip" data-placement="top" title="Saved Playlist"></i></a>
                             <a href="#"><i class="cv cvicon-cv-purchased" data-toggle="tooltip" data-placement="top" title="Purchased Videos"></i></a>
                             <a href="#"><i class="cv cvicon-cv-history" data-toggle="tooltip" data-placement="top" title="History"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-sm-10 hidden-xs">
-                        <div class="h-resume">
-                            <div class="play-icon">
-                                <a href="#"><i class="cv cvicon-cv-play"></i></a>
-                            </div>
-                            Resume:  <span class="color-default">Daredevil Season 2 : Episode 6 </span>
-                        </div>
-                    </div>
-                    <div class="col-lg-1 col-sm-2 hidden-xs">
-                        <div class="h-grid">
-                            <a href="#"><i class="cv cvicon-cv-grid-view"></i></a>
-                            <a href="#"><i class="cv cvicon-cv-list-view"></i></a>
                         </div>
                     </div>
                 </div>
@@ -594,17 +572,17 @@
                 <div class="col-lg-1  col-sm-2 col-xs-12 footer-logo">
                     <!--<a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Project name" class="logo" /></a>-->
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.svg" alt="Project name" class="logo" />
-                        <span>Circle</span>
+                        <img src="images/laffhubsmiley.png" alt="Project name" class="logo" />
+                        <span>LaffHub</span>
                     </a>
                 </div>
                 <div class="col-lg-7 col-sm-6 col-xs-12">
                     <div class="f-links">
                         <ul class="list-inline">
                             <li><a href="#">About</a></li>
-                            <li><a href="#">Press</a></li>
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Advertise</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Cookie</a></li>
+                            <li><a href="#">Contact Us</a></li>
                             <li class="hidden-xs"><a href="#">Help</a></li>
                         </ul>
                     </div>
