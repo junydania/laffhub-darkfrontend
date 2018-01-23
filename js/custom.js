@@ -5,7 +5,6 @@
 $( document ).ready(function() {
 
 
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Home page
     // Updates from Subscriptions Hover
@@ -97,6 +96,23 @@ $( document ).ready(function() {
         $('#icon').toggleClass("fa-chevron-down hidden-xs fa-chevron-up hidden-xs");
         $('.clearsearch').slideToggle('slow');
     });
+
+
+    ////////// Sweet Alert /////////
+    $('.banner').click(function() {
+        confirmation();
+    })
+    
+    function confirmation() {
+        swal({
+        title: "Good Job!",
+        text:"You clicked the button",
+        icon: "success",
+        button: "Aww yiss!"
+        })
+    }
+
+
 
     var MYAPP = {
         initialize: function() {
